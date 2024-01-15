@@ -6,6 +6,8 @@
     <title>NeomorphicWebsite</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3a93eb2518.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,39 +20,47 @@
       <label class="header-menu-icon fa fa-bars" for="navHandlerId"></label>
       <nav id="headerNavigationId" class="header-navigation">
         <input type="radio" name="headerNavigation" id="nav-1" checked/>
-        <label class="nav-item" for="nav-1" data="Codepen">
+        <label class="nav-item" for="nav-1" data="Home">
         </label>
         <input type="radio" name="headerNavigation" id="nav-2"/>
-        <label class="nav-item" for="nav-2" data="Github">
+        <label class="nav-item" for="nav-2" data="About">
         </label>
-        <input type="radio" name="headerNavigation" id="nav-3"/>
-        <label class="nav-item" for="nav-3" data="Linkedin">
-        </label>
+        <!-- <input type="radio" name="headerNavigation" id="nav-3"/>
+        <label class="nav-item" for="nav-3" data="">
+        </label> -->
         <input type="radio" name="headerNavigation" id="nav-4"/>
-        <label class="nav-item" for="nav-4" data="Instagram">
+        <label class="nav-item" for="nav-4" data="Projects">
         </label>
         <input type="radio" name="headerNavigation" id="nav-5"/>
-        <label class="nav-item" for="nav-5" data="Facebook">
+        <label class="nav-item" for="nav-5" data="Contact">
         </label>
       </nav>
     </div>
   </header>
- 
-  <!-- Home -->
-  <!-- <div class="part">
-      <div class="octo">
-        <div class="octo1">
-          <img src="http://farm3.staticflickr.com/2441/3657346647_a11111ed39_z.jpg?zz=1" alt="" width="320" height="316" />
-        </div>
-      </div>
-  </div> -->
-  <div class="texts">
-    <div class="text">
-        <h1>Coding the future,<br> one project at a time.
-            <span style="height: 550px;"></span></h1>
-     </div>
-  </div>
+
+  <div id="stars-background">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</div>
+<div class="content">
+    <div class="HomeText">Welcome to my Portfolio, <br> This is Nazia Parveen <br> a web developer</div>
+    <!-- Other content goes here -->
+    <div class="tm-scroll"><span></span></div>
+    <div class="gap" style="height: 200px;"></div>
+    <div class="about">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+</div>
+
+
+
+
+
   
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </body>
 </html>
